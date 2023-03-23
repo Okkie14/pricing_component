@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Pricing Component</title>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="img-container">
+    
+  </div>
+  <div class="img-container-left-bottom"></div>
+  <main class="prices">
+    <div class="heading">
+      <h1>Our Pricing</h1>
+    </div>
+    <div class="toggle-switch">
+      <h2 id="annually" class="option">
+        Annually
+      </h2>
+      <label class="switch">
+        <input type="checkbox" id="checkbox">
+        <span class="slider round"></span>
+      </label>
+      <h2 id="monthly" class="option">
+        Monthly
+      </h2>
+    </div>
+    <section class="option-section">
+      <section class="basic neutral" id="basic-option">
+        <h2 class="option-heading">Basic</h2>
+        <p class="priceOptions">
+          <span class="basic-prices priceOptions">&dollar;</span> <span id="basic-price" class="basic-prices priceOptions"> 199.99</span>
+        </p>
+        
+        <p class="priceInfo" id="border">
+          500 GB Storage
+        </p>
+        <p class="priceInfo">
+          2 Users Allowed
+        </p>
+        <p class="priceInfo" id="border">
+          Send up to 3 GB
+        </p>
+        <div class="btn">
+          <button class="learn-more" type="button">Learn More</button>
+        </div>
+      </section>
+      <section class="pro" id="pro-option">
+        <h2 class="option-heading proColor">Professional</h2>
+        <p class="priceOptions proColor">
+          <span class="pro-prices priceOptions">&dollar;</span> <span id="pro-price" class="pro-prices priceOptions">249.99</span>
+        </p>
+        <p class="priceInfo proColor" id="border">
+          1 TB Storage
+        </p>
+        <p class="priceInfo proColor">
+          5 Users Allowed
+        </p>
+        <p class="priceInfo proColor" id="border">
+          Send up to 10 GB
+        </p>
+        <div class="btn">
+          <button class="pro-btn-learn-more" type="button">Learn More</button>
+        </div>
+      </section>
+      <section class="master neutral" id="master-option">
+        <h2 class="option-heading">Master</h2>
+        <p class="priceOptions">
+          <span class="master-prices priceOptions">&dollar;</span> <span id="master-price" class="master-prices priceOptions">399.99</span>
+        </p>
+        <p class="priceInfo" id="border">
+          2 TB Storage
+        </p>
+        <p class="priceInfo">
+          10 Users Allowed
+        </p>
+        <p class="priceInfo" id="border">
+          Send up to 20 GB
+        </p>
+        <div class="btn">
+          <button class="learn-more" type="button">Learn More</button>
+        </div>
+      </section>
+    </section>
+  </main>
+  <footer class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://www.frontendmentor.io/profile/Okkie14">Okkert Joubert</a>.
+  </footer>
+</body>
+<script src="./script.js"></script>
+</html>
