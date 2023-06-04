@@ -6,12 +6,12 @@ slider.addEventListener('click', () => {
     const masterOption = document.getElementById('master-price');
 
     if (slider.checked) {
-        basicOption.innerHTML = 19.99;
-        proOption.innerHTML = 24.99;
-        masterOption.innerHTML = 39.99;
+        basicOption.setHTML(19.99);
+        proOption.setHTML(24.99);
+        masterOption.setHTML(39.99);
     } else {
-        basicOption.innerHTML = 199.99;
-        proOption.innerHTML = 249.99;
-        masterOption.innerHTML = 399.99;
+        basicOption.setHTML(199.99);
+        proOption.setHTML(249.99);
+        masterOption.setHTML(399.99);
     }
 })
